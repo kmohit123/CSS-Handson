@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background: url("./image/shara\ desert.jpg") no-repeat center center/cover;
+    content: " ";
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    z-index: -5;
+    opacity: 1;
+}
+.navbar{
+    /* position: relative; */
+    display: flex;
+    height: 17%;   
+}
+#logo{
+    /* position: absolute; */
+    /* top: 30px;    */
+    /* left: 100px; */
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+    left: 50px;
+}
+#menu ul{
+    /* position: absolute; */
+    /* right: 220px; */
+    /* margin-left: 500px; */
+    /* top: 30px;*/
+    display: flex;
+    list-style: none;
+    color: white; 
+     margin-left: 900px; 
+     margin-top: 20px;      
+}
+li a{
+    text-decoration: none;
+    padding: 12px 12px;
+    color: white;
+   
+}
+#menu-icon{
+    /* position: absolute;  */
+    /* right: 160px;
+    top: 27px; */
+    /* margin-left: 800px; */
+     height: 25px;
+    width: 30px;
+    margin-top: 15px;
+}
+#menu-icon img{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    /* position: relative; */
+    display: flex;
+}
+.latf-box{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 115px;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    margin-left: 101px;
+}
+.peram{
+    color: white;
+    font-size: 20px;
+    margin-left: 103px;
+}
+button{
+    background-color: white;
+    border-radius: 26px;
+    border: none;
+    width: 137px;
+    height: 35px;
+    margin-left: 98px;
+}
+.right-gridbox{
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    width: 430px;
+    height: 430px;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 70px;   
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+.item1{
+    background: url("./image/pic-1.png")no-repeat center center/cover;
+    content: " ";
+    width: 200px;
+    height: 200px;
+}
+.item1:hover{
+    transform: translatey(-10px);
+}
+.item2{
+    background: url("./image/pic-2.png")no-repeat center center/cover;
+    content: " ";
+    width: 200px;
+    height: 200px;
+}
+.item2:hover{
+    transform: translatey(-10px);
+}
+.item3{
+    background: url("./image/pic-3.png")no-repeat center center/cover;
+    content: " ";
+    width: 200px;
+    height: 200px;
+}
+.item3:hover{
+    transform: translatey(-10px);
+}
+.item4{
+    background: url("./image/pic-4.png")no-repeat center center/cover;
+    content: " ";
+    width: 200px;
+    height: 200px;
+}
+.item4:hover{
+    transform: translatey(-10px);
+}
+h4{
+    margin-left: 15px;
+    padding: 15px; 
+    color: white;
+}
+.peram1{
+    color: white;
+    margin-left: 30px;
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {   
+    #menu ul{
+        margin-left: 80px;
+    }
+
+ }
